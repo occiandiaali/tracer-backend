@@ -24,7 +24,7 @@ app.use(
 // MongoDB Atlas connection
 mongoose
   .connect(mongoAtlasUri)
-  .then(() => console.log("Database connected!"))
+  .then(() => console.log("Mongo Database connected!"))
   .catch((err) => console.error("Database connection error:", err));
 
 // Schemas
